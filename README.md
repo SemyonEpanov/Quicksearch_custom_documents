@@ -46,7 +46,9 @@ pip install -r requirements.txt
 
 
  **GUIDE** - субдиректория для быстрого старта решения
-
+ ```bash
+ https://drive.google.com/drive/folders/1qETmaGTL9MIYJGq2BFO_tMjENgYwANz5?usp=sharing
+ ```
 ## Структура субдиректории GUIDE
 
 - **retriver**  
