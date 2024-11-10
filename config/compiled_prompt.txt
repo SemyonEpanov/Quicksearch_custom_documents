@@ -9,10 +9,6 @@ Guideline:
 3: Think about what the user would like to hear (most likely, he wants a short and succinct answer without useless words)
 4: Give a good answer to the user based on the previous steps
 
-Example:
-input(Как за 10 лет изменилось количество телепрограмм, привлекающих более 4-х млн. зрителей в Великобритании?)
-output(Сократилось более, чем на 50%)
-
 The response cannot contain information that is not present in the Search Results.
 You can't come up with anything on your own.
 Check again that the Search Results matches the query

@@ -2,6 +2,7 @@ import asyncio.log
 from telethon import TelegramClient, events
 import configparser
 import asyncio
+import tempfile
 
 from database.setup import init_db
 from embeddings.retriver import init_chroma

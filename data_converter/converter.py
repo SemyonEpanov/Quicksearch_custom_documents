@@ -3,6 +3,7 @@ import io
 import fitz
 import pandas as pd
 import shutil
+from PIL import Image
 from typing import Optional
 
 
@@ -94,6 +95,7 @@ def pdf_page_to_image(pdf_name: str, page_number: int, pdf_dir: str = f"{os.getc
     doc.close()
 
 
-    image_bytes = io.BytesIO()
-    img = io.BytesIO(pix.tobytes("png"))
-    return img
+    img = Image.open(io.BytesIO(pix.tobytes("png")), formats=["png"])
+    img.save(f"{os.getcwd()}/files/images/last_image.png", format="PNG")
+    
+    return f"{os.getcwd()}/files/images/last_image.png"
